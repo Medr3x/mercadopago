@@ -38,5 +38,19 @@
                 "mercadopago": "medrex\\mercadopago\\Facades\\mercadopago"
             }
         }
-    }
+    },
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "medrex/mercadopago",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/Medr3x/mercadopago.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],
 }
