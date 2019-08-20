@@ -1,6 +1,7 @@
 {
     "name": "medrex/mercadopago",
     "description": ":description",
+    "minimum-stability": "dev",
     "license": "license",
     "authors": [
         {
@@ -11,7 +12,7 @@
     "homepage": "https://github.com/medrex/mercadopago",
     "keywords": ["Laravel", "mercadopago"],
     "require": {
-        "illuminate/support": "~5"
+        "medrex/mercadopago": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~7.0",
