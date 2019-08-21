@@ -1,7 +1,6 @@
 {
     "name": "medrex/mercadopago",
     "description": ":description",
-    "minimum-stability": "dev",
     "license": "license",
     "authors": [
         {
@@ -11,23 +10,8 @@
     ],
     "homepage": "https://github.com/medrex/mercadopago",
     "keywords": ["Laravel", "mercadopago"],
-    "repositories": [
-        {
-            "type":"package",
-            "package": {
-                "name": "medrex/mercadopago",
-                "version":"master",
-                "source": {
-                    "url": "https://github.com/Medr3x/mercadopago.git",
-                    "type": "git",
-                    "reference":"master"
-                }
-            }
-        }
-    ],
     "require": {
-        "illuminate/support": "~5",
-        "medrex/mercadopago": "dev-master"
+        "illuminate/support": "~5"
       }
     },  
     "require-dev": {
