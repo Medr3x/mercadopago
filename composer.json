@@ -1,7 +1,7 @@
 {
     "name": "medrex/mercadopago",
     "description": ":description",
-    "minimum-stability": "1.0.0",
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
