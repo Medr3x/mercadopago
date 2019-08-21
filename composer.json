@@ -1,6 +1,6 @@
 {
     "name": "medrex/laravel-mercadopago",
-    "description": "Mercado Pago SDK v1.0.0 for Laravel",
+    "description": "Mercado Pago SDK v1.0.2 for Laravel",
     "keywords": ["laravel", "mercadopago", "sdk"],
     "license": "MIT",
     "authors": [

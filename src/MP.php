@@ -10,7 +10,7 @@ use Exception;
  */
 $GLOBALS["LIB_LOCATION"] = dirname(__FILE__);
 class MP {
-    const version = "0.5.2";
+    const version = "1.0.2";
     private $client_id;
     private $client_secret;
     private $ll_access_token;
