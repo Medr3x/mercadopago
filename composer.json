@@ -1,56 +1,20 @@
 {
-    "name": "medrex/mercadopago",
-    "description": ":description",
+    "name": "medrex/laravel-mercadopago",
+    "description": "Mercado Pago SDK v1.0.0 for Laravel",
+    "keywords": ["laravel", "mercadopago", "sdk"],
     "license": "MIT",
     "authors": [
         {
-            "name": "MEDERO LEONARDO",
+            "name": "Medero Leonardo",
             "email": "medero1025@gmail.com"
         }
     ],
-    "homepage": "https://github.com/medrex/mercadopago",
-    "keywords": ["Laravel", "mercadopago"],
-    "repositories": [
-        {
-            "type":"package",
-            "package": {
-                "name": "medrex/mercadopago",
-                "version":"master",
-                "source": {
-                    "url": "https://github.com/Medr3x/mercadopago.git",
-                    "type": "git",
-                    "reference":"master"
-                }
-            }
-        }
-    ],
     "require": {
-        "illuminate/support": "^5"
-    },  
-    "require-dev": {
-        "phpunit/phpunit": "^7.0",
-        "mockery/mockery": "^1.1",
-        "orchestra/testbench": "^3.0",
-        "sempro/phpunit-pretty-print": "^1.0"
+        "ext-curl": "*"
     },
     "autoload": {
         "psr-4": {
-            "medrex\\mercadopago\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "medrex\\mercadopago\\Tests\\": "tests"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "medrex\\mercadopago\\mercadopagoServiceProvider"
-            ],
-            "aliases": {
-                "mercadopago": "medrex\\mercadopago\\Facades\\mercadopago"
-            }
+            "Medrex\\LaravelMercadoPago\\" : "src/"
         }
     }
 }
