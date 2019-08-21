@@ -1,6 +1,7 @@
 {
     "name": "medrex/laravel-mercadopago",
     "description": "Mercado Pago SDK v1.0.2 for Laravel",
+    "minimum-stability": "dev",
     "keywords": ["laravel", "mercadopago", "sdk"],
     "type": "library",
     "license": "MIT",
@@ -12,23 +13,6 @@
     ],
     "require": {
         "php": ">=5.4.0"
-    },
-    "repositories": [
-        {
-            "type":"package",
-            "package": {
-                "name": "medrex/laravel-mercadopago",
-                "version":"master",
-                "source": {
-                    "url": "https://github.com/Medr3x/mercadopago.git",
-                    "type": "git",
-                    "reference":"master"
-                }
-            }
-        }
-    ],
-    "require-dev": {
-        "medrex/laravel-mercadopago": "master"
     },
     "autoload": {
         "psr-4": {
