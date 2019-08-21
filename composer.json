@@ -13,6 +13,23 @@
     "require": {
         "php": ">=5.4.0"
     },
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "medrex/laravel-mercadopago",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/Medr3x/mercadopago.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],
+    "require-dev": {
+        "medrex/laravel-mercadopago": "master"
+    },
     "autoload": {
         "psr-4": {
             "Medrex\\LaravelMercadoPago\\" : "src/"
